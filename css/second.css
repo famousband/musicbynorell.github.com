@@ -173,3 +173,22 @@ footer h4 {
   page-break-inside: avoid;
   break-inside: avoid;
 }
+
+footer h4 {
+  font-family: "Carattere", cursive;
+  width: 100%;
+  text-align: center; margin-top: 3rem;
+  padding: 0 1rem; font-size: 2rem;
+  transition: .3s; line-height: 1; 
+  color: mediumpurple;
+}
+
+footer p {
+  color: mediumpurple;
+  font-family: "Indie Flower", cursive;
+  position: relative;
+}
+
+div.columns h2{
+  font-family: "Indie Flower", cursive; 
+}

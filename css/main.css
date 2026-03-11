@@ -73,10 +73,12 @@ dd a:hover {
 }
 
 dd img { 
-  width: 100%; height: auto;
+  width: 100%; 
+  height: auto;
   display: block;
   margin-top: 1rem;
   margin-bottom: 5rem; 
+
 }
 dd:hover, dd:focus, dd:hover a, dd:focus a { opacity: 1; }
 div:hover h1, div:focus h1 { opacity: 0; }
@@ -92,6 +94,7 @@ dt:hover + dd, dt:hover + dd a, dt:focus + dd, dt:focus + dd a { opacity: 1; }
   }
 	dd img { 
     margin-top: 0; margin-left: 1rem; 
+    width: auto;
     height: 100%; 
   }
 }
@@ -105,6 +108,13 @@ footer h4 {
   text-align: center; margin-top: 3rem;
   padding: 0 1rem; font-size: 2rem;
   transition: .3s; line-height: 1; 
+  color: mediumpurple;
+}
+
+footer p {
+  color: mediumpurple;
+  font-family: "Indie Flower", cursive;
+  position: relative;
 }
 
 /*------------------------------------*\
