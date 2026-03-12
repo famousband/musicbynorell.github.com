@@ -16,7 +16,7 @@ body { margin: 0; background: #101; }
   right: 0;
   bottom: 0;
   width: auto%;
-  min-height: 100%;
+  height: 100%;
 
 }
 
