@@ -76,7 +76,8 @@ dd a:hover {
 }
 
 dd img { 
-  width: 100%; height: auto;
+  width: 100%; 
+  height: auto;
   display: block;
   margin-top: 1rem;
   margin-bottom: 5rem; 
@@ -95,11 +96,16 @@ dt:hover + dd, dt:hover + dd a, dt:focus + dd, dt:focus + dd a { opacity: 1; }
   }
 	dd img { 
     margin-top: 0; margin-left: 1rem; 
+    width: auto;
     height: 100%; 
+
   }
+
+
 }
 @media screen and (max-width: 500px) { 
   h1 { font-size: 4rem; margin-top: 1.5rem; } 
+
 }
 
 footer h4 {

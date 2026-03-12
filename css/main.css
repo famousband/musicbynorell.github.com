@@ -100,6 +100,7 @@ dt:hover + dd, dt:hover + dd a, dt:focus + dd, dt:focus + dd a { opacity: 1; }
 }
 @media screen and (max-width: 500px) { 
   h1 { font-size: 4rem; margin-top: 1.5rem; } 
+  
 }
 
 footer h4 {
