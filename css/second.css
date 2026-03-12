@@ -15,8 +15,9 @@ body { margin: 0; background: #101; }
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  min-width: 200px;
   min-height: 100%;
+
 }
 
 div dl {

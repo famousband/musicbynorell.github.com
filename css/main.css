@@ -15,7 +15,8 @@ body { margin: 0; background: #101; }
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  width: 100%;
+  min-width: 200px;
   min-height: 100%;
 }
 
@@ -103,6 +104,29 @@ dt:hover + dd, dt:hover + dd a, dt:focus + dd, dt:focus + dd a { opacity: 1; }
   
 }
 
+footer h1 {
+  position: relative;
+  color: mediumpurple; z-index: 3; font-weight: 100;
+  width: 100%;
+  text-align: center; margin-top: 3rem;
+  padding: 0 1rem; font-size: 5rem;
+  transition: .3s; line-height: 1; 
+  font-family: 'Passions Conflict', cursive;
+  margin-top: 20px;
+
+}
+
+footer h2 {
+  display:inline-block;
+  padding:0 20px;
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:18px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  width: 80%;
+}
+
 footer h4 {
   font-family: "Carattere", cursive;
   width: 100%;
@@ -117,6 +141,12 @@ footer p {
   font-family: "Indie Flower", cursive;
   position: relative;
 }
+
+footer img {
+  margin-right: 2px; width: 80%; height: auto; position: relative; vertical-align: center;
+}
+
+
 
 /*------------------------------------*\
     #BLOCK
