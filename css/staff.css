@@ -11,6 +11,7 @@ body { margin: 0; background: #101;
   background-image: url(media/background.mp4);
 } 
 
+
 #myVideo {
   position: fixed;
   right: 0;
@@ -159,13 +160,14 @@ article{
 
 h1{
   font-family: 'Fjalla One', sans-serif;
-  font-size:72px;
+  font-size:70px;
   text-align:center;
   text-transform:uppercase;
   letter-spacing:4px;
   word-spacing:10px;
   margin-top:0;
   margin-bottom:20px;
+
 }
 
 h1 span{
@@ -235,6 +237,7 @@ blockquote{
   div.columns img {
     width: 100%;
   }
+
 }
 
 

@@ -30,7 +30,7 @@ body { margin: 0; background: #101; }
   min-width: 100%;
   min-height: 100%;
 
-  max-width: 100vw;
+  /*max-width: 100vw;*/
 }
 
 div { font-family: "Passions Conflict", cursive; }
@@ -113,7 +113,7 @@ dt:hover + dd, dt:hover + dd a, dt:focus + dd, dt:focus + dd a { opacity: 1; }
   }
 }
 @media screen and (max-width: 500px) { 
-  h1 { font-size: 4rem; margin-top: 1.5rem; } 
+  h1 { font-size: 3.8rem; margin-top: 1.5rem; } 
   
 }
 
