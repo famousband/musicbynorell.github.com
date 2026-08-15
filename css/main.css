@@ -97,6 +97,24 @@ dd img {
 dd:hover, dd:focus, dd:hover a, dd:focus a { opacity: 1; }
 div:hover h1, div:focus h1 { opacity: 0; }
 dt:hover + dd, dt:hover + dd a, dt:focus + dd, dt:focus + dd a { opacity: 1; }
+
+h1.bee {
+  position: relative;
+  color: #fcca3f; z-index: 3; font-weight: 100;
+  width: 100%;
+  text-align: center; margin-top: 3rem;
+  padding: 0 1rem; font-size: 5rem;
+  transition: .3s; line-height: 1; 
+  font-family: "Birthstone Bounce";
+  margin-top: 20px;
+
+}
+
+h1.bee:hover {
+  color: palegoldenrod;
+}
+
+
 @media screen and (max-width: 700px) {
 	dd { 
     width: 100% !important;
